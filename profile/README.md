@@ -15,5 +15,43 @@ service robotics.
 
 Checkout [our IIT's website](https://www.iit.it/it/web/humanoid-sensing-and-perception).
 
+Whenever possible we make code related to our research available to the community with open-source licenses. Checkout the respositories within the organization for some recent results. 
+
+In some cases we contributed code to the iCub community, e.g.:
+
+ - ⚙️ [YARP](https://github.com/robotology/yarp)
+   - Yet Another Robot Platform - our middleware, check out official [documentation page](https://yarp.it)
+ - ⚙️ [YCM](https://github.com/robotology/ycm)
+   - Extra CMake Modules for YARP and Friends, check out official [documentation page](http://robotology.github.io/ycm/gh-pages/git-master/index.html)
+ - ⚙️  [visual-tracking-control](https://github.com/robotology/visual-tracking-control)
+   - a suite of cross-platform applications for visual tracking and visual servoing for the humanoid robot platform iCub.
+ - ⚙️  [navigation](https://github.com/robotology/navigation)
+   - A collection of modules to perform 2D navigation with a YARP-based robot.
+ - ⚙️ [Cardinal points grasping](https://github.com/robotology/cardinal-points-grasp)
+   - Simple superquadric-based grasping pose generator for iCub
+ - ⚙️ [Superquadric fitting](https://github.com/robotology/find-superquadric)
+   - Solve an optimization problem to find out the best superquadric that fits a given partial point cloud.
+ - ⚙️ [On the Fly recognition](https://github.com/robotology/onthefly-recognition)
+    - This demo allows to teach the iCub to visually recognize new objects "on the fly".
+ - ⚙️ https://github.com/robotology/himrep
+    - This repository contains a collection of modules to extract features from images or to perform classification tasks on feature vectors
+ - ⚙️ https://github.com/robotology/r1-grasping
+    - Grasping on R1 robot
+ - ⚙️ https://github.com/robotology/point-cloud-read
+    - Acquire point clouds of specific objects in the scene in order to save or stream them.
+ - ⚙️ https://github.com/robotology/GRASPA-benchmark
+    - Repository gathering all code involved in the submission to the RA-L Special Issue in Manipulation and Grasping
+ - ⚙️ https://github.com/robotology/superquadric-grasp-demo
+    - Object modeling and grasping with superquadrics and visual-servoing
+ - ⚙️ https://github.com/robotology/tactile-control
+    - Improve grasp stability using tactile feedback.
+ - 📚 [superquadric-lib](https://github.com/robotology/superquadric-lib)
+   - a Yarp-free library for computing and visualizing the superquadric representing an object and the relative grasping candidates for a generic robot.
+ - 📚 [superimpose-mesh-lib](https://github.com/robotology/superimpose-mesh-lib)
+   - an augmented-reality library to superimpose 3D objects on a images.
+ - 📚 [bayes-filters-lib](https://github.com/robotology/bayes-filters-lib)
+   - a recursive Bayesian estimation library.
+
+
 
 
