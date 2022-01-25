@@ -15,10 +15,22 @@ service robotics.
 
 Checkout [our IIT's website](https://www.iit.it/it/web/humanoid-sensing-and-perception).
 
-Whenever possible we make code related to our research available to the community with open-source licenses. Checkout the respositories within the organization for some recent results. 
+Whenever possible we make code related to our research available to the community with open-source licenses. 
 
-In some cases we contributed code to the iCub community, e.g.:
-
+ - ⚙️ [On-line detection and segmentation](https://github.com/hsp-iit/online-detection)
+   - On-line Object Detection and Instance Segmentation project.
+ - ⚙️ [ROFT](https://github.com/hsp-iit/roft)
+   - Real-time Optical Flow-aided 6D Object Pose and Velocity Tracking.
+ - ⚙️ [MASK-UKF](https://github.com/hsp-iit/mask-ukf)
+   - Instance Segmentation Aided 6D Object Pose and Velocity Tracking using an Unscented Kalman Filter.
+ - ⚙️ [Fast-YCB Dataset](https://github.com/hsp-iit/fast-ycb)
+   - An annotated dataset for 6D object tracking, with fast moving YCB objects. 
+ - ⚙️ [Digit simulator for gazebo](https://github.com/hsp-iit/gazebo-yarp-digit-plugin)
+   - A tentative C++ wrapper for the Python based Digit tactile sensor simulation.
+ - ⚙️ [Digit simulator for gazebo](https://github.com/hsp-iit/dekf-tactile-filtering)
+   - A differentiable Extended Kalman Filter for object tracking under sliding regime
+ - 📚 [Visualization for grasp candidates](https://https://github.com/hsp-iit/manip-env-visu)
+   - Barebones library to visualize simple manipulation environments
  - ⚙️ [YARP](https://github.com/robotology/yarp)
    - Yet Another Robot Platform - our middleware, check out official [documentation page](https://yarp.it)
  - ⚙️ [YCM](https://github.com/robotology/ycm)
