@@ -27,7 +27,7 @@ Whenever possible we make code related to our research available to the communit
    - An annotated dataset for 6D object tracking, with fast moving YCB objects. 
  - ⚙️ [Digit simulator for gazebo](https://github.com/hsp-iit/gazebo-yarp-digit-plugin)
    - A tentative C++ wrapper for the Python based Digit tactile sensor simulation.
- - ⚙️ [Digit simulator for gazebo](https://github.com/hsp-iit/dekf-tactile-filtering)
+ - ⚙️ [Tracking sliding objects with tactile feedback](https://github.com/hsp-iit/dekf-tactile-filtering)
    - A differentiable Extended Kalman Filter for object tracking under sliding regime
  - 📚 [Visualization for grasp candidates](https://https://github.com/hsp-iit/manip-env-visu)
    - Barebones library to visualize simple manipulation environments
