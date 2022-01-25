@@ -33,6 +33,8 @@ Whenever possible we make code related to our research available to the communit
    - Barebones library to visualize simple manipulation environments
   - ⚙️ [Robot environment for pybullet ](https://github.com/hsp-iit/pybullet-robot-envs)
    - A Python package that collects robotic environments based on the PyBullet simulator.
+  - ⚙️ https://github.com/robotology/GRASPA-benchmark
+    - Repository gathering all code involved in the submission to the RA-L Special Issue in Manipulation and Grasping
  - ⚙️ [YARP](https://github.com/robotology/yarp)
    - Yet Another Robot Platform - our middleware, check out official [documentation page](https://yarp.it)
  - ⚙️ [YCM](https://github.com/robotology/ycm)
@@ -53,8 +55,6 @@ Whenever possible we make code related to our research available to the communit
     - Grasping on R1 robot
  - ⚙️ https://github.com/robotology/point-cloud-read
     - Acquire point clouds of specific objects in the scene in order to save or stream them.
- - ⚙️ https://github.com/robotology/GRASPA-benchmark
-    - Repository gathering all code involved in the submission to the RA-L Special Issue in Manipulation and Grasping
  - ⚙️ https://github.com/robotology/superquadric-grasp-demo
     - Object modeling and grasping with superquadrics and visual-servoing
  - ⚙️ https://github.com/robotology/tactile-control
