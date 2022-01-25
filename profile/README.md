@@ -33,7 +33,7 @@ Whenever possible we make code related to our research available to the communit
    - Barebones library to visualize simple manipulation environments
   - ⚙️ [Robot environment for pybullet ](https://github.com/hsp-iit/pybullet-robot-envs)
    - A Python package that collects robotic environments based on the PyBullet simulator.
-  - ⚙️ https://github.com/robotology/GRASPA-benchmark
+  - ⚙️ [GRASPA Benchmark](https://github.com/hsp-iit/GRASPA-benchmark)
     - Repository gathering all code involved in the submission to the RA-L Special Issue in Manipulation and Grasping
  - ⚙️ [YARP](https://github.com/robotology/yarp)
    - Yet Another Robot Platform - our middleware, check out official [documentation page](https://yarp.it)
