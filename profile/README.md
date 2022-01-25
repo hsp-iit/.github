@@ -31,10 +31,10 @@ Whenever possible we make code related to our research available to the communit
    - A differentiable Extended Kalman Filter for object tracking under sliding regime
  - 📚 [Visualization for grasp candidates](https://https://github.com/hsp-iit/manip-env-visu)
    - Barebones library to visualize simple manipulation environments
-  - ⚙️ [Robot environment for pybullet ](https://github.com/hsp-iit/pybullet-robot-envs)
+ - ⚙️ [Robot environment for pybullet ](https://github.com/hsp-iit/pybullet-robot-envs)
    - A Python package that collects robotic environments based on the PyBullet simulator.
-  - ⚙️ [GRASPA Benchmark](https://github.com/hsp-iit/GRASPA-benchmark)
-    - Repository gathering all code involved in the submission to the RA-L Special Issue in Manipulation and Grasping
+ - ⚙️ [GRASPA Benchmark](https://github.com/hsp-iit/GRASPA-benchmark)
+   - Repository gathering all code involved in the submission to the RA-L Special Issue in Manipulation and Grasping
  - ⚙️ [YARP](https://github.com/robotology/yarp)
    - Yet Another Robot Platform - our middleware, check out official [documentation page](https://yarp.it)
  - ⚙️ [YCM](https://github.com/robotology/ycm)
