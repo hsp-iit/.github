@@ -29,7 +29,7 @@ Whenever possible we make code related to our research available to the communit
    - A tentative C++ wrapper for the Python based Digit tactile sensor simulation.
  - ⚙️ [Tracking sliding objects with tactile feedback](https://github.com/hsp-iit/dekf-tactile-filtering)
    - A differentiable Extended Kalman Filter for object tracking under sliding regime
- - 📚 [Visualization for grasp candidates](https://https://github.com/hsp-iit/manip-env-visu)
+ - 📚 [Visualization for grasp candidates](https://github.com/hsp-iit/manip-env-visu)
    - Barebones library to visualize simple manipulation environments
  - ⚙️ [Robot environment for pybullet ](https://github.com/hsp-iit/pybullet-robot-envs)
    - A Python package that collects robotic environments based on the PyBullet simulator.
