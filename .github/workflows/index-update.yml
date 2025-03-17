@@ -13,7 +13,7 @@ on:
 jobs:
   docs:
     name: "Index-update"
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout
@@ -49,10 +49,10 @@ jobs:
           cat repos-list-complete.txt
 
           touch table.md
-          #echo "| Name | Description | Last commit | CI status |" >> table.md
-          #echo "| ----------- | ----------- | ----------- | ----------- |"  >> table.md
-          echo "| Name | Description |  CI status |" >> table.md
-          echo "| ----------- | ----------- | ----------- |"  >> table.md
+          #echo "| Name | Description | Last commit | CI status | Docker |" >> table.md
+          #echo "| ----------- | ----------- | ----------- | ----------- | ----------- |"  >> table.md
+          echo "| Name | Description |  CI status | Docker |" >> table.md
+          echo "| ----------- | ----------- | ----------- | ----------- |"  >> table.md
           while IFS='' read line; do
             entryName=$(echo "$line" | cut -f 1 )
             entryNameNoOrg=$(echo "$line" | cut -f 1 | sed 's/.*\///')
@@ -63,8 +63,13 @@ jobs:
             else
               CIstatus=""
             fi
-            #echo "| [$entryNameNoOrg](https://github.com/$entryName) | $descName| $dateComm | $CIstatus|" >> table.md
-            echo "| [$entryNameNoOrg](https://github.com/$entryName) | $descName| $CIstatus|" >> table.md
+            if wget --spider "https://github.com/$entryName/workflows/Docker%20build/badge.svg" 2>/dev/null; then
+              DockerStatus="[![Build Status](https://github.com/$entryName/workflows/Docker%20build/badge.svg)](https://github.com/$entryName/actions?query=workflow%3A%22CI+Workflow%22)"
+            else
+              DockerStatus=""
+            fi
+            #echo "| [$entryNameNoOrg](https://github.com/$entryName) | $descName| $dateComm | $CIstatus | $DockerStatus |" >> table.md
+            echo "| [$entryNameNoOrg](https://github.com/$entryName) | $descName| $CIstatus | $DockerStatus |" >> table.md
           done < repos-list-complete.txt
 
           cat table.md
